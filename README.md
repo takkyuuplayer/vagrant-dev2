@@ -11,5 +11,6 @@ Create local development machine based on [Scientific Linux 6 64 minimal](http:/
 # How to use
 
 ```bash
+$ make vagrant_setup
 $ vagrant up
 ```

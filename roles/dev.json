@@ -1,0 +1,23 @@
+{
+  "name": "dev",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "description": "Development Tools",
+  "run_list": [
+    "recipe[yum]",
+    "recipe[yum-epel]",
+    "recipe[build-essential]",
+    "recipe[zlib]",
+    "recipe[xml]",
+    "recipe[ncurses]",
+    "recipe[readline]",
+    "recipe[libevent]",
+    "recipe[zip]",
+    "recipe[tmux::_package]",
+    "recipe[git]",
+    "recipe[zsh]",
+    "recipe[mercurial]",
+    "recipe[vim]",
+    "recipe[man]"
+  ]
+}

@@ -1,5 +1,4 @@
 DEPENDENCIES
-  apache
   chef-dk
   git
   iptables
@@ -29,8 +28,6 @@ DEPENDENCIES
   zsh
 
 GRAPH
-  apache (0.0.5)
-    apache2 (>= 0.0.0)
   apache2 (2.0.0)
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)

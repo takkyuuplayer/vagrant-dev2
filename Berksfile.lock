@@ -1,13 +1,26 @@
 DEPENDENCIES
   chef-dk
   git
-  resolv
-    path: site-cookbooks/resolv
+  libevent
+  man
+  mercurial
+  ncurses
+  readline
+  screen
+  tmux
+  vim
+  xml
+  yum
+  yum-epel
+  zip
+  zlib
+  zsh
 
 GRAPH
   build-essential (2.0.6)
   chef-dk (1.0.2)
     dmg (~> 2.2)
+  chef-sugar (2.0.0)
   chef_handler (1.1.6)
   dmg (2.2.0)
   git (4.0.2)
@@ -17,13 +30,35 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
-  resolv (0.1.0)
+  libevent (0.1.0)
+    build-essential (>= 0.0.0)
+  man (0.7.0)
+  mercurial (2.0.4)
+    build-essential (>= 0.0.0)
+    python (>= 0.0.0)
+    windows (>= 0.0.0)
+  ncurses (0.0.3)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  readline (0.0.4)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  screen (0.8.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+  tmux (1.4.0)
+  vim (1.1.2)
   windows (1.34.2)
     chef_handler (>= 0.0.0)
+  xml (1.2.6)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
   yum (3.2.2)
   yum-epel (0.4.0)
     yum (~> 3.0)
+  zip (1.1.0)
+  zlib (2.0.0)
+  zsh (1.0.0)

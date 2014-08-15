@@ -6,5 +6,5 @@ vagrant_setup:
 	vagrant plugin install vagrant-omnibus
 	vagrant plugin install vagrant-berkshelf
 
-chef-dk:
-	sudo chef-solo -c solo.rb -j nodes/chef-dk.json
+white-box:
+	sudo chef-solo -c solo.rb -j nodes/white-box.json

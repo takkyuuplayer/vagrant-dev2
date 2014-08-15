@@ -1,0 +1,8 @@
+{
+    "run_list":[
+        "recipe[chef-dk]",
+        "recipe[git]",
+        "recipe[resolv]"
+    ]
+}
+

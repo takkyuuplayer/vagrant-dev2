@@ -1,6 +1,8 @@
 DEPENDENCIES
   chef-dk
   git
+  resolv
+    path: site-cookbooks/resolv
 
 GRAPH
   build-essential (2.0.6)
@@ -15,6 +17,7 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  resolv (0.1.0)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)

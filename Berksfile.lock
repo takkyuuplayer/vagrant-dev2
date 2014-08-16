@@ -1,13 +1,19 @@
 DEPENDENCIES
+  apache
   chef-dk
   git
+  iptables
   libevent
   man
   mercurial
+  mysql
   ncurses
   ndenv
     git: https://github.com/mostlyfine/chef-ndenv.git
     revision: ba19a8a0200bf062ac8fb8f06d58152c74515066
+  nginx
+  php
+  php-fpm
   plenv
     git: git@github.com:takkyuuplayer/chef-plenv.git
     revision: 2466574f7b3344e01c248fc2b51e676a9f8b5d4d
@@ -15,18 +21,37 @@ DEPENDENCIES
     git: https://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   readline
+  remi
+    git: https://github.com/DQNEO/cookbook-remi.git
+    revision: e50903d4fd39c2fbe62b765fbef244f4c700fc5b
   ruby_build
   screen
+  selinux
+  sqlite
   tmux
   vim
   xml
   yum
+  yum-elrepo
   yum-epel
+  yum-ius
+  yum-pgdg
+  yum-repoforge
+  yum-webtatic
   zip
   zlib
   zsh
 
 GRAPH
+  apache (0.0.5)
+    apache2 (>= 0.0.0)
+  apache2 (2.0.0)
+    iptables (>= 0.0.0)
+    logrotate (>= 0.0.0)
+    pacman (>= 0.0.0)
+  apt (2.5.2)
+  bluepill (2.3.1)
+    rsyslog (>= 0.0.0)
   build-essential (2.0.6)
   chef-dk (1.0.2)
     dmg (~> 2.2)
@@ -40,16 +65,41 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  iis (2.1.2)
+    windows (>= 1.2.6)
+  iptables (0.13.2)
   java (1.25.0)
   libevent (0.1.0)
     build-essential (>= 0.0.0)
+  logrotate (1.6.0)
   man (0.7.0)
   mercurial (2.0.4)
     build-essential (>= 0.0.0)
     python (>= 0.0.0)
     windows (>= 0.0.0)
+  mysql (5.3.6)
+    yum-mysql-community (>= 0.0.0)
   ncurses (0.0.3)
   ndenv (0.1.0)
+  nginx (2.7.4)
+    apt (~> 2.2)
+    bluepill (~> 2.3)
+    build-essential (~> 2.0)
+    ohai (~> 2.0)
+    runit (~> 1.2)
+    yum-epel (~> 0.3)
+  ohai (2.0.1)
+  pacman (1.1.1)
+  php (1.4.6)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 0.0.0)
+    windows (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  php-fpm (0.6.10)
+    apt (>= 0.0.0)
+    yum (>= 3.0.0)
   plenv (0.1.0)
   python (1.4.6)
     build-essential (>= 0.0.0)
@@ -58,6 +108,8 @@ GRAPH
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
   readline (0.0.4)
+  remi (0.1.2)
+  rsyslog (1.12.2)
   ruby_build (0.8.0)
   runit (1.5.10)
     build-essential (>= 0.0.0)
@@ -66,6 +118,8 @@ GRAPH
   screen (0.8.0)
     build-essential (>= 0.0.0)
     git (>= 0.0.0)
+  selinux (0.8.0)
+  sqlite (1.1.0)
   tmux (1.4.0)
   vim (1.1.2)
   windows (1.34.2)
@@ -74,8 +128,23 @@ GRAPH
     build-essential (>= 0.0.0)
     chef-sugar (>= 0.0.0)
   yum (3.2.2)
+  yum-elrepo (0.2.0)
+    yum (~> 3.0)
   yum-epel (0.4.0)
     yum (~> 3.0)
+  yum-ius (0.2.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)
+  yum-pgdg (0.2.2)
+    yum (~> 3.0)
+  yum-repoforge (0.3.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  yum-webtatic (0.1.1)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
   zip (1.1.0)
   zlib (2.0.0)
   zsh (1.0.0)

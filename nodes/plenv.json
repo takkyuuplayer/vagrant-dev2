@@ -1,0 +1,18 @@
+{
+  "plenv": {
+    "build": [
+      "5.20.0"
+    ],
+    "global": "5.20.0",
+    "cpanms": {
+        "5.20.0": [
+            "Carton"
+        ]
+    }
+  },
+  "run_list": [
+    "recipe[plenv::default]",
+    "recipe[plenv::install]"
+  ]
+}
+

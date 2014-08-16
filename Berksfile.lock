@@ -15,7 +15,7 @@ DEPENDENCIES
   php
   php-fpm
   plenv
-    git: git@github.com:takkyuuplayer/chef-plenv.git
+    git: https://github.com/takkyuuplayer/chef-plenv.git
     revision: 2466574f7b3344e01c248fc2b51e676a9f8b5d4d
   rbenv
     git: https://github.com/fnichol/chef-rbenv.git

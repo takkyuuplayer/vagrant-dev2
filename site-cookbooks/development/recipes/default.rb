@@ -9,5 +9,20 @@
 
 execute "Install Development Tools" do
   command 'yum -y groupinstall "Development Tools"'
+  # command 'yum -y groupinstall "Additional Development"'
   action :run
+end
+
+%w(
+curl-devel
+freetype-devel
+libjpeg-devel
+libmcrypt-devel
+libpng-devel
+libtidy libtidy-devel
+re2c
+).each do |pkg|
+  package pkg do
+    action :upgrade
+  end
 end

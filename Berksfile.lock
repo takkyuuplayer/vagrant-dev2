@@ -2,6 +2,7 @@ DEPENDENCIES
   apache
   chef-dk
   git
+  golang
   iptables
   libevent
   man
@@ -67,10 +68,11 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  golang (1.4.0)
   iis (2.1.2)
     windows (>= 1.2.6)
   iptables (0.13.2)
-  java (1.25.0)
+  java (1.26.0)
   libevent (0.1.0)
     build-essential (>= 0.0.0)
   logrotate (1.6.0)

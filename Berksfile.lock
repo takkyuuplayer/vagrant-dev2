@@ -15,6 +15,7 @@ DEPENDENCIES
     git: https://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   readline
+  ruby_build
   screen
   tmux
   vim

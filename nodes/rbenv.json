@@ -1,0 +1,22 @@
+{
+  "rbenv": {
+    "rubies": [
+      "1.9.3-p547",
+      "2.1.2"
+    ],
+    "gems": {
+      "1.9.3-p547": [
+        {"name": "bundler"}
+      ],
+      "2.1.2": [
+        {"name": "bundler"}
+      ]
+    },
+    "global": "2.1.2"
+  },
+  "run_list": [
+    "recipe[rbenv::system]",
+    "recipe[ruby_build]"
+  ]
+}
+

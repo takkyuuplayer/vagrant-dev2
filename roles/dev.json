@@ -6,6 +6,10 @@
   "run_list": [
     "recipe[yum]",
     "recipe[yum-epel]",
+    "recipe[yum-pgdg]",
+    "recipe[yum-elrepo]",
+    "recipe[yum-webtatic]",
+    "recipe[yum-repoforge]",
     "recipe[build-essential]",
     "recipe[zlib]",
     "recipe[xml]",

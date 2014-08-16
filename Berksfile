@@ -6,6 +6,16 @@ cookbook 'chef-dk'
 # repo
 cookbook 'yum'
 cookbook 'yum-epel'
+cookbook 'yum-ius'
+cookbook 'yum-pgdg'
+cookbook 'yum-elrepo'
+cookbook 'yum-webtatic'
+cookbook 'yum-repoforge'
+cookbook 'yum-mysql-community'
+
+# security
+cookbook 'selinux'
+cookbook 'iptables'
 
 # complie
 cookbook 'zlib'
@@ -14,6 +24,13 @@ cookbook 'xml'
 cookbook 'readline'
 cookbook 'ncurses'
 cookbook 'zip'
+
+# midleware
+cookbook 'mysql'
+cookbook 'sqlite'
+cookbook 'apache'
+cookbook 'nginx'
+cookbook 'php-fpm'
 
 # tools
 cookbook 'git'

@@ -3,6 +3,9 @@ source "https://supermarket.getchef.com"
 # chef
 cookbook 'chef-dk'
 
+# own
+cookbook 'resolv', path: './site-cookbooks/resolv'
+
 # repo
 cookbook 'yum'
 cookbook 'yum-epel'

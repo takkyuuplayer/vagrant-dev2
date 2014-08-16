@@ -24,6 +24,8 @@ DEPENDENCIES
   remi
     git: https://github.com/DQNEO/cookbook-remi.git
     revision: e50903d4fd39c2fbe62b765fbef244f4c700fc5b
+  resolv
+    path: site-cookbooks/resolv
   ruby_build
   screen
   selinux
@@ -109,6 +111,7 @@ GRAPH
     ruby_build (>= 0.0.0)
   readline (0.0.4)
   remi (0.1.2)
+  resolv (0.1.0)
   rsyslog (1.12.2)
   ruby_build (0.8.0)
   runit (1.5.10)

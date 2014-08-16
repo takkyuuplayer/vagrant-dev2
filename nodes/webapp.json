@@ -1,0 +1,33 @@
+{
+  "mysql": {
+    "server_root_password": "",
+    "server_repl_password": "",
+    "server_debian_password": ""
+  }
+  ,"sandbox": {
+    "subdomain": "sandbox"
+  }
+  ,"proxy-sandbox": {
+    "subdomain": "mojolicious"
+    ,"port": 10080
+  }
+  ,"php-fpm": {
+    "pools": [
+      {
+        "name": "nginx"
+        ,"listen_owner": "nginx"
+        ,"listen_group": "nginx"
+      }
+    ]
+  }
+  ,"run_list":[
+    "recipe[php]"
+    ,"recipe[nginx]"
+    ,"recipe[php-fpm]"
+    ,"recipe[mysql::server]"
+    ,"recipe[mysql::client]"
+    ,"recipe[webapp]"
+    ,"recipe[webapp::sandbox]"
+    ,"recipe[webapp::proxy]"
+  ]
+}

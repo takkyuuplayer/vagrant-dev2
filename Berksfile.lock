@@ -12,6 +12,7 @@ DEPENDENCIES
     git: https://github.com/mostlyfine/chef-ndenv.git
     revision: ba19a8a0200bf062ac8fb8f06d58152c74515066
   nginx
+  php
   php-fpm
   plenv
     git: git@github.com:takkyuuplayer/chef-plenv.git
@@ -62,6 +63,8 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  iis (2.1.2)
+    windows (>= 1.2.6)
   iptables (0.13.2)
   java (1.25.0)
   libevent (0.1.0)
@@ -85,6 +88,13 @@ GRAPH
     yum-epel (~> 0.3)
   ohai (2.0.1)
   pacman (1.1.1)
+  php (1.4.6)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 0.0.0)
+    windows (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
   php-fpm (0.6.10)
     apt (>= 0.0.0)
     yum (>= 3.0.0)

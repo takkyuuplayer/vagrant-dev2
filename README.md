@@ -13,4 +13,6 @@ Create local development machine based on [Scientific Linux 6 64 minimal](http:/
 ```bash
 $ make vagrant_setup
 $ vagrant up
+$ vagrant ssh-config --host dev >> ~/.ssh/config
+$ ssh dev
 ```

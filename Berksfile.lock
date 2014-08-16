@@ -10,7 +10,7 @@ DEPENDENCIES
     revision: ba19a8a0200bf062ac8fb8f06d58152c74515066
   plenv
     git: git@github.com:takkyuuplayer/chef-plenv.git
-    revision: b9dabda7e7f620d45c11b4bad9c6b3c85fb82678
+    revision: 2466574f7b3344e01c248fc2b51e676a9f8b5d4d
   rbenv
     git: https://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9

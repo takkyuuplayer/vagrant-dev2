@@ -25,7 +25,7 @@ cookbook 'zsh'
 cookbook 'man'
 
 # lang
-cookbook 'plenv', git: 'https://github.com/mostlyfine/chef-plenv.git'
+cookbook 'plenv', git: 'git@github.com:takkyuuplayer/chef-plenv.git'
 cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv.git'
 cookbook 'ndenv', git: 'https://github.com/mostlyfine/chef-ndenv.git'
 cookbook 'ruby_build'

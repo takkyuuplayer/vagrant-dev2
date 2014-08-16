@@ -2,7 +2,7 @@ server {
     listen       80;
     server_name <%= @subdomain %>.takkyuuplayer.vagrant;
     index       index.php index.html index.htm;
-    root /web/<%= @subdomain %>/htdocs;
+    root /web/<%= @subdomain %>;
     charset     utf-8;
     access_log  /var/log/nginx/vh/<%= @subdomain %>-access.local.log;
     error_log   /var/log/nginx/vh/<%= @subdomain %>-error.local.log;

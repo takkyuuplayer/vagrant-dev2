@@ -21,6 +21,9 @@ DEPENDENCIES
     git: https://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   readline
+  remi
+    git: https://github.com/DQNEO/cookbook-remi.git
+    revision: e50903d4fd39c2fbe62b765fbef244f4c700fc5b
   ruby_build
   screen
   selinux
@@ -32,7 +35,6 @@ DEPENDENCIES
   yum-elrepo
   yum-epel
   yum-ius
-  yum-mysql-community
   yum-pgdg
   yum-repoforge
   yum-webtatic
@@ -106,6 +108,7 @@ GRAPH
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
   readline (0.0.4)
+  remi (0.1.2)
   rsyslog (1.12.2)
   ruby_build (0.8.0)
   runit (1.5.10)

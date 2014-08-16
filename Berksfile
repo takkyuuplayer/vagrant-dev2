@@ -11,7 +11,7 @@ cookbook 'yum-pgdg'
 cookbook 'yum-elrepo'
 cookbook 'yum-webtatic'
 cookbook 'yum-repoforge'
-cookbook 'yum-mysql-community'
+cookbook 'remi', git: 'https://github.com/DQNEO/cookbook-remi.git'
 
 # security
 cookbook 'selinux'

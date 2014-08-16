@@ -10,6 +10,7 @@
     "recipe[yum-elrepo]",
     "recipe[yum-webtatic]",
     "recipe[yum-repoforge]",
+    "recipe[remi]",
     "recipe[build-essential]",
     "recipe[zlib]",
     "recipe[xml]",

@@ -1,0 +1,11 @@
+{
+  "ndenv": {
+    "build": ["v0.11.13"],
+    "global": "v0.11.13"
+  },
+  "run_list": [
+    "recipe[ndenv::default]",
+    "recipe[ndenv::install]"
+  ]
+}
+

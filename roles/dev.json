@@ -12,6 +12,7 @@
     "recipe[yum-repoforge]",
     "recipe[remi]",
     "recipe[build-essential]",
+    "recipe[development]",
     "recipe[zlib]",
     "recipe[xml]",
     "recipe[ncurses]",

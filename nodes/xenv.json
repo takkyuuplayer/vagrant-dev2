@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[plenv::default]",
+    "recipe[plenv::install]",
+    "recipe[ndenv::default]",
+    "recipe[ndenv::install]"
+  ]
+}

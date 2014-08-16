@@ -5,6 +5,15 @@ DEPENDENCIES
   man
   mercurial
   ncurses
+  ndenv
+    git: https://github.com/mostlyfine/chef-ndenv.git
+    revision: ba19a8a0200bf062ac8fb8f06d58152c74515066
+  plenv
+    git: https://github.com/mostlyfine/chef-plenv.git
+    revision: 9b415b4f0a7d689c83ee4a63a7dd098999d6902b
+  rbenv
+    git: https://github.com/fnichol/chef-rbenv.git
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   readline
   screen
   tmux
@@ -30,6 +39,7 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  java (1.25.0)
   libevent (0.1.0)
     build-essential (>= 0.0.0)
   man (0.7.0)
@@ -38,10 +48,16 @@ GRAPH
     python (>= 0.0.0)
     windows (>= 0.0.0)
   ncurses (0.0.3)
+  ndenv (0.1.0)
+  plenv (0.1.0)
   python (1.4.6)
     build-essential (>= 0.0.0)
     yum-epel (>= 0.0.0)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
   readline (0.0.4)
+  ruby_build (0.8.0)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)

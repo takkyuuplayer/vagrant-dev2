@@ -9,7 +9,7 @@
 
 include_recipe "nginx::default"
 
-%w(/workspace /web).each do |dir|
+%w(/web).each do |dir|
   directory dir do
     action :create
     user "vagrant"

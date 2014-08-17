@@ -26,3 +26,12 @@ re2c
     action :upgrade
   end
 end
+
+%w(/workspace).each do |dir|
+  directory dir do
+    action :create
+    user "vagrant"
+    group "vagrant"
+    mode 0775
+  end
+end

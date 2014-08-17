@@ -14,7 +14,7 @@ end
     end
 end
 
-%w(/workspace /web).each do |dir|
+%w(/web).each do |dir|
   directory "#{dir}/#{node["sandbox"][:subdomain]}" do
     action :create
     user "vagrant"
@@ -32,7 +32,6 @@ template "/etc/nginx/sites-available/#{node[:sandbox][:subdomain]}-local.vh" do
   notifies :restart, 'service[nginx]'
   variables({
     :subdomain => node[:sandbox][:subdomain],
-    :document_root => "/workspace/#{node[:sandbox][:subdomain]}"
   })
 end
 

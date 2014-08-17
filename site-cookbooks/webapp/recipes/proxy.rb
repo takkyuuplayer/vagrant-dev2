@@ -10,7 +10,7 @@ include_recipe 'nginx'
   end
 end
 
-%w(/workspace /web).each do |dir|
+%w(/web).each do |dir|
   directory "#{dir}/#{node["proxy-sandbox"][:subdomain]}" do
     action :create
     user "vagrant"

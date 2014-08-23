@@ -9,24 +9,11 @@ cookbook 'resolv', path: './site-cookbooks/resolv'
 # repo
 cookbook 'yum'
 cookbook 'yum-epel'
-cookbook 'yum-ius'
-cookbook 'yum-pgdg'
-cookbook 'yum-elrepo'
-cookbook 'yum-webtatic'
-cookbook 'yum-repoforge'
 cookbook 'remi', git: 'https://github.com/DQNEO/cookbook-remi.git'
 
 # security
 cookbook 'selinux'
 cookbook 'iptables'
-
-# complie
-cookbook 'zlib'
-cookbook 'libevent'
-cookbook 'xml'
-cookbook 'readline'
-cookbook 'ncurses'
-cookbook 'zip'
 
 # midleware
 cookbook 'mysql'

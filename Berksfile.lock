@@ -4,11 +4,9 @@ DEPENDENCIES
   git
   golang
   iptables
-  libevent
   man
   mercurial
   mysql
-  ncurses
   ndenv
     git: https://github.com/mostlyfine/chef-ndenv.git
     revision: ba19a8a0200bf062ac8fb8f06d58152c74515066
@@ -21,7 +19,6 @@ DEPENDENCIES
   rbenv
     git: https://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
-  readline
   remi
     git: https://github.com/DQNEO/cookbook-remi.git
     revision: e50903d4fd39c2fbe62b765fbef244f4c700fc5b
@@ -33,16 +30,8 @@ DEPENDENCIES
   sqlite
   tmux
   vim
-  xml
   yum
-  yum-elrepo
   yum-epel
-  yum-ius
-  yum-pgdg
-  yum-repoforge
-  yum-webtatic
-  zip
-  zlib
   zsh
 
 GRAPH
@@ -58,7 +47,7 @@ GRAPH
   build-essential (2.0.6)
   chef-dk (1.0.2)
     dmg (~> 2.2)
-  chef-sugar (2.0.0)
+  chef-sugar (2.2.0)
   chef_handler (1.1.6)
   dmg (2.2.0)
   git (4.0.2)
@@ -73,8 +62,6 @@ GRAPH
     windows (>= 1.2.6)
   iptables (0.13.2)
   java (1.26.0)
-  libevent (0.1.0)
-    build-essential (>= 0.0.0)
   logrotate (1.6.0)
   man (0.7.0)
   mercurial (2.0.4)
@@ -83,7 +70,6 @@ GRAPH
     windows (>= 0.0.0)
   mysql (5.3.6)
     yum-mysql-community (>= 0.0.0)
-  ncurses (0.0.3)
   ndenv (0.1.0)
   nginx (2.7.4)
     apt (~> 2.2)
@@ -111,7 +97,6 @@ GRAPH
   rbenv (0.7.3)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
-  readline (0.0.4)
   remi (0.1.2)
   resolv (0.1.0)
   rsyslog (1.12.2)
@@ -133,23 +118,8 @@ GRAPH
     build-essential (>= 0.0.0)
     chef-sugar (>= 0.0.0)
   yum (3.2.2)
-  yum-elrepo (0.2.0)
-    yum (~> 3.0)
   yum-epel (0.4.0)
     yum (~> 3.0)
-  yum-ius (0.2.0)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
   yum-mysql-community (0.1.10)
     yum (>= 3.0)
-  yum-pgdg (0.2.2)
-    yum (~> 3.0)
-  yum-repoforge (0.3.0)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
-  yum-webtatic (0.1.1)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
-  zip (1.1.0)
-  zlib (2.0.0)
   zsh (1.0.0)

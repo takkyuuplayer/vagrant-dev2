@@ -17,6 +17,9 @@ libtidy libtidy-devel
 ncurses ncurses-devel
 openssl openssl-devel
 re2c
+unzip
+xz xz-devel
+zip
 ).each do |pkg|
   package pkg do
     action :upgrade

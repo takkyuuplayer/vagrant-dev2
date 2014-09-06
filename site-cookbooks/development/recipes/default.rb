@@ -14,6 +14,8 @@ libjpeg-devel
 libmcrypt-devel
 libpng-devel
 libtidy libtidy-devel
+ncurses ncurses-devel
+openssl openssl-devel
 re2c
 ).each do |pkg|
   package pkg do

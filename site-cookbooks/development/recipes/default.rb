@@ -10,6 +10,7 @@
 %w(
 curl-devel
 freetype-devel
+libevent libevent-devel
 libjpeg-devel
 libmcrypt-devel
 libpng-devel

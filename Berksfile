@@ -21,6 +21,7 @@ cookbook 'sqlite'
 cookbook 'apache'
 cookbook 'nginx'
 cookbook 'php-fpm'
+cookbook 'mongodb'
 
 # tools
 cookbook 'git'

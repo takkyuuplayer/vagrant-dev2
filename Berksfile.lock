@@ -6,6 +6,7 @@ DEPENDENCIES
   iptables
   man
   mercurial
+  mongodb
   mysql
   ndenv
     git: https://github.com/mostlyfine/chef-ndenv.git
@@ -68,6 +69,11 @@ GRAPH
     build-essential (>= 0.0.0)
     python (>= 0.0.0)
     windows (>= 0.0.0)
+  mongodb (0.16.1)
+    apt (>= 1.8.2)
+    python (>= 0.0.0)
+    runit (>= 1.5.0)
+    yum (>= 3.0)
   mysql (5.3.6)
     yum-mysql-community (>= 0.0.0)
   ndenv (0.1.0)

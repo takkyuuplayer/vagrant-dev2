@@ -18,6 +18,7 @@ libtidy libtidy-devel
 ncurses ncurses-devel
 openssl openssl-devel
 re2c
+readline readline-devel
 unzip
 xz xz-devel
 zip

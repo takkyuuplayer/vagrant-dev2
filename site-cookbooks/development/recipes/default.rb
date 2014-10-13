@@ -15,6 +15,8 @@ libjpeg-devel
 libmcrypt-devel
 libpng-devel
 libtidy libtidy-devel
+libxml2 libxml2-devel
+libxslt libxslt-devel
 ncurses ncurses-devel
 openssl openssl-devel
 re2c

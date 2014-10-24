@@ -23,6 +23,7 @@ re2c
 readline readline-devel
 unzip
 xz xz-devel
+xdg-utils
 zip
 ).each do |pkg|
   package pkg do

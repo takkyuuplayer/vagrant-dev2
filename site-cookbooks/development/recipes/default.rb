@@ -8,6 +8,7 @@
 #
 
 %w(
+bzip2 bzip2-devel bzip2-libs
 curl-devel
 freetype-devel
 libevent libevent-devel
@@ -21,6 +22,7 @@ ncurses ncurses-devel
 openssl openssl-devel
 re2c
 readline readline-devel
+sqlite-devel
 unzip
 xz xz-devel
 xdg-utils

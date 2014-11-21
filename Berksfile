@@ -26,6 +26,8 @@ cookbook 'mongodb'
 # tools
 cookbook 'git'
 cookbook 'mercurial'
+cookbook 'subversion', '~> 1.3.0'
+
 cookbook 'vim'
 cookbook 'screen'
 cookbook 'tmux'

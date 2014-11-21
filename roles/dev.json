@@ -11,6 +11,7 @@
     "recipe[development]",
     "recipe[tmux::_package]",
     "recipe[git]",
+    "recipe[subversion]",
     "recipe[zsh]",
     "recipe[mercurial]",
     "recipe[vim]",

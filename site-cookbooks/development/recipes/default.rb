@@ -11,6 +11,7 @@
 bzip2 bzip2-devel bzip2-libs
 curl-devel
 freetype-devel
+fontconfig fontconfig-devel
 libevent libevent-devel
 libjpeg-devel
 libmcrypt-devel

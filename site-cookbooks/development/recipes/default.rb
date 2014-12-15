@@ -10,8 +10,10 @@
 %w(
 bzip2 bzip2-devel bzip2-libs
 curl-devel
+expat-devel
 freetype-devel
 fontconfig fontconfig-devel
+gettext-devel
 libevent libevent-devel
 libjpeg-devel
 libmcrypt-devel
@@ -21,6 +23,7 @@ libxml2 libxml2-devel
 libxslt libxslt-devel
 ncurses ncurses-devel
 openssl openssl-devel
+perl-ExtUtils-MakeMaker
 re2c
 readline readline-devel
 sqlite-devel
@@ -28,6 +31,7 @@ unzip
 xz xz-devel
 xdg-utils
 zip
+zlib-devel
 ).each do |pkg|
   package pkg do
     action :upgrade

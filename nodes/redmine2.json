@@ -1,0 +1,10 @@
+{
+  "redmine": {
+      "host": "redmine.takkyuuplayer.vagrant"
+  },
+  "run_list": [
+    "recipe[redmine2]"
+  ]
+}
+
+

@@ -41,3 +41,6 @@ cookbook 'ndenv', git: 'https://github.com/mostlyfine/chef-ndenv.git'
 cookbook 'ruby_build'
 cookbook 'php'
 cookbook 'golang'
+
+# web tools
+cookbook 'redmine2'

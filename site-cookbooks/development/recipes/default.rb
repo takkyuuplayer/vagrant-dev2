@@ -18,6 +18,7 @@ libevent libevent-devel
 libjpeg-devel
 libmcrypt-devel
 libpng-devel
+libstdc++ libstdc++-devel libstdc++-docs
 libtidy libtidy-devel
 libxml2 libxml2-devel
 libxslt libxslt-devel

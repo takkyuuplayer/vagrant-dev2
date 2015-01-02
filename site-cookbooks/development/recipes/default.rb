@@ -15,6 +15,7 @@ freetype-devel
 fontconfig fontconfig-devel
 gettext-devel
 libevent libevent-devel
+libffi libffi-devel
 libjpeg-devel
 libmcrypt-devel
 libpng-devel

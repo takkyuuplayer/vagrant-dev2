@@ -29,6 +29,7 @@ perl-ExtUtils-MakeMaker
 re2c
 readline readline-devel
 sqlite-devel
+texinfo
 unzip
 xz xz-devel
 xdg-utils
